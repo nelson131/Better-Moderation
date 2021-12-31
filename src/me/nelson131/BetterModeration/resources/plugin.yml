@@ -1,0 +1,17 @@
+
+name: BetterModeration
+version: 1.0.1
+main: me.nelson131.BetterModeration.bettermoderation.Plugin
+description: Plugin to improve your Moderation experience
+author: nelson131
+api-version: 1.17
+commands:
+  ModerationMode:
+      permission: moderator
+      aliases: [mm]
+      permission-message: You don`t have permission
+      description: To enable the moderation mode
+permissions:
+  moderator:
+    description: main permission for using commands
+    default: op
